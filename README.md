@@ -42,18 +42,6 @@ A comprehensive, all-in-one DayZ server configuration tool built with Electron a
 - **Mission Selection** - Dedicated Chernarus+ mission folder selection
 - **Visual Indicators** - Clear mission type identification
 - **Optimized Editors** - All features tailored for Chernarus+ configuration files
-
-## 📸 Screenshots
-
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Custom Loadout Editor with Dropdown
-![Custom Loadouts](screenshots/custom-loadouts.png)
-
-### Chernarus+ Mission Selection
-![Mission Selection](screenshots/mission-selection.png)
-
 ## 🚀 Installation
 
 ### Windows (Recommended)
@@ -61,27 +49,6 @@ A comprehensive, all-in-one DayZ server configuration tool built with Electron a
 2. Extract `DayZServerFilesEditor-v1.0.zip` to your desired location
 3. Run `DayZServerFilesEditor.exe`
 4. Create a desktop shortcut for easy access
-
-### Build from Source
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/DayZServerFilesEditor.git
-cd DayZServerFilesEditor
-
-# Install dependencies
-npm install
-
-# Build the application
-npm run build
-
-# Start in development mode
-npm run dev
-
-# Package for distribution
-npm run dist
-```
-
-## 📖 Usage
 
 ### Getting Started
 1. **Launch the Application** - Run `DayZServerFilesEditor.exe`
@@ -117,43 +84,6 @@ Configure application preferences in the **Settings** tab:
 - Editor behavior
 - File paths
 - Auto-save intervals
-
-### Custom Loadout Folder
-Configure custom loadout folder in **Gameplay Settings**:
-```
-Custom Spawn Loadout Data:
-  enableCustomSpawnLoadouts: 1
-  customLoadoutFolder: "custom\\spawnloadouts\\"
-  randomizeCustomLoadouts: 1
-```
-
-## 🛠️ Development
-
-### Project Structure
-```
-DayZServerFilesEditor/
-├── src/
-│   ├── app.jsx              # Main application
-│   ├── editors-core.jsx     # Core editors (Dashboard, Server, Globals)
-│   ├── editors-secondary.jsx # Secondary editors (Events, Economy, Loadouts)
-│   ├── editors-extra.jsx    # Advanced editors (Weather, Gameplay, Spawning)
-│   ├── map-editor.jsx       # Map editor component
-│   ├── community.jsx        # Community features (News, Status)
-│   └── shared.jsx           # Shared components and utilities
-├── main.js                  # Electron main process
-├── preload.js               # Preload script
-├── index.html               # HTML template
-├── style.css                # Application styles
-└── package.json             # Dependencies and scripts
-```
-
-### Available Scripts
-```bash
-npm run build      # Build React app with esbuild
-npm run start      # Start Electron app
-npm run dev        # Start in development mode
-npm run dist       # Build distribution package
-```
 
 ### Key Technologies
 - **Electron** - Desktop application framework
@@ -211,7 +141,7 @@ Copyright © 2024-2026 [webercomputerhilfe.de](https://webercomputerhilfe.de)
 ### Contact
 - **Email**: info@webercomputerhilfe.de
 - **Website**: https://dayzserverfileseditor.webercomputerhilfe.de
-- **Discord**: [Join our Discord](https://discord.gg/yourserver)
+- **Discord**: [Join our Discord](https://discord.gg/UgBqWyM)
 
 ## 🙏 Acknowledgments
 
@@ -220,12 +150,5 @@ Copyright © 2024-2026 [webercomputerhilfe.de](https://webercomputerhilfe.de)
 - **React Community** - UI library and ecosystem
 - **DayZ Community** - Feedback and testing
 
-## 🔗 Related Projects
-
-- [DayZ Server Tools](https://github.com/yourusername/dayz-server-tools)
-- [DayZ Config Generator](https://github.com/yourusername/dayz-config-generator)
-- [Chernarus+ Map Resources](https://github.com/yourusername/chernarus-map-resources)
-
----
 
 **Built with ❤️ for the DayZ community by [webercomputerhilfe.de](https://webercomputerhilfe.de)**
